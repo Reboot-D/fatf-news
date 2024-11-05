@@ -1,0 +1,20 @@
+{
+  "name": "fatf-news",
+  "version": "1.0.0",
+  "description": "FATF News Aggregator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.1.0"
+  }
+} 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATF 新闻资讯</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FATF 新闻资讯</h1>
+            <p class="subtitle">实时追踪全球金融行动特别工作组的最新动态</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="news-container"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FATF News. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { NewsDisplay } from './js/newsDisplay.js';
+        new NewsDisplay('news-container');
+    </script>
+</body>
+</html> 
