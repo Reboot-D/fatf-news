@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次，确保网站保持活跃
+    - cron: '0 */6 * * *'
 
 jobs:
   build-and-deploy:
@@ -37,4 +37,4 @@ jobs:
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist 
+        publish_dir: ./dist
